@@ -5,7 +5,7 @@
 ## Debug
 ProjectName            :=01_SSR_model_development
 ConfigurationName      :=Debug
-WorkspacePath          :="C:/Users/karlisr/OneDrive - NTNU/7_Local_project_holders/Precision/VegDim_SSR_model_cpp_program/VegDim_SSR_model_cpp_program"
+WorkspacePath          :="C:/Users/karlisr/OneDrive - NTNU/7_Local_project_holders/Precision/VegDim_SSR_model_CPP_program"
 ProjectPath            :="C:/Users/karlisr/OneDrive - NTNU/6_Project_Repos/VegDim_SSR_model_cpp_program/01_SSR_model_development"
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
