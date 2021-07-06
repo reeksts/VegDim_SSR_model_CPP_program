@@ -192,21 +192,8 @@ private:
     // Calculation initializer member methods (IS THIS FUNCTION NECESSARY??)
     void set_filenames (std::string &input_filename_1, std::string &input_filename_2, std::string &input_filename_3, std::string &input_filename_4, std::string &input_filename_5,
                         std::string &output_filename_1, std::string &output_filename_2, std::string &output_filename_3, std::string &output_filename_4, std::string &output_filename_5);
-    
-    // Load files methods
-    void load_layers_file();
-    void load_data_file();
-    void load_other_file();
-    void load_chaussee_file();
-    void load_site_file();
-    
-    // Pre-calculation methods
-    void interface_lim_creation();
-    void set_total_test_time();
-    void set_gradT_p();
-    void set_Cq_lim_values();
-    void add_zero_day_to_output_container();
-    
+
+public:
     // Stepwise member methods
     double get_total_test_time();
     double get_current_hour_count();
@@ -251,8 +238,7 @@ private:
     void write_to_file_output_4();  // outputs limits
     void write_to_file_output_5();  // outputs results for python model
     void print_output();
-
-public:
+    
     // Setter functions    
     void set_rhod_value (const int &layer_number, const double &rhod);
     void set_rhos_value (const int &layer_number, const double &rhos);
@@ -264,6 +250,20 @@ public:
     void set_kf_value (const int &layer_number, const double &kf);
     void set_Sr_value (const int &layer_number, const double &Sr);
     void set_Ls_value (const int &layer_number, const double &Ls);
+    
+    //Load files methods
+    void load_layers_file();
+    void load_data_file();
+    void load_other_file();
+    void load_chaussee_file();
+    void load_site_file();
+    
+    // ???
+    void interface_lim_creation();
+    void set_total_test_time();
+    void set_gradT_p();
+    void set_Cq_lim_values();
+    void add_zero_day_to_output_container();
     
     // Getter functions
     double get_rhod_value (const int &layer_number);
