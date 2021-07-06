@@ -1,0 +1,9 @@
+- figure out what to do wiht the imaginary number answers - nothing? delete them?
+- give better names to partial_time_step and resudial stuff
+- final depth in figures regarding the frost amount
+- chech how the dh shoudl decrease with negative dz0 results
+- figure out hwo to name better the dz0_imp, porably it should be just dz0
+- why is teh first flux value lower than teh next ones?
+- fix how the frost front goes through the insulation layer
+- is there a need for teh flag chech at the beginning of explicit dz0 calc?
+d- fix the flag values in all the files
